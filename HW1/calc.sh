@@ -1,21 +1,21 @@
 function add()
 {
-   echo -e "${1} + ${2} = $((${1}+${2}))"
+   echo -e "${1} + ${2} = $(expr $1 + $2)"
 }
 
 function sub()
 {
-   echo -e "${1} - ${2} = $((${1}-${2}))"
+   echo -e "${1} - ${2} = $(expr $1 - $2)"
 }
 
 function mul()
 {
-   echo -e "${1} * ${2} = $((${1}*${2}))"
+   echo -e "${1} * ${2} = $(expr $1 \* $2)"
 }
 
 function div()
 {
-   echo -e "${1} / ${2} = $((${1}/${2}))"
+   echo -e "${1} / ${2} = $(expr $1 / $2)"
 }
 
 function fac()
