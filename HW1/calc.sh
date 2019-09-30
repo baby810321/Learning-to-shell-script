@@ -45,4 +45,7 @@ case ${1} in
    "factorial")
       fac ${2}
       ;;
+   *)
+      echo -e "Parameter ${1} is not defined."
+      ;;
 esac

@@ -35,6 +35,7 @@ do
       a) var1=$OPTARG;;
       b) var2=$OPTARG;;
       o) operation=$OPTARG;;
+      *) echo -e "argument $argv is not defined.";;
    esac
 done
 
@@ -53,5 +54,8 @@ case $operation  in
       ;;
    "factorial")
       fac $var1
+      ;;
+   *)
+      echo -e "Operation $operation is not defined."
       ;;
 esac
