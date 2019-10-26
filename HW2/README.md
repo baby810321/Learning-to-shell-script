@@ -7,24 +7,20 @@
 ## Usage
 ./calc.sh -o add -a 4 -b 2
 
-
 a + b = 6
 
 
 ./calc.sh -o sub -a 4 -b 2
-
 
 a + b = 2
 
 
 ./calc.sh -o mul -a 4 -b 2
 
-
 a * b = 8
 
 
 ./calc.sh -o div -a 4 -b 2
-
 
 a / b = 2
 
